@@ -72,11 +72,34 @@
     window['adaptive'].init();// 调用初始化方法
   </script>
   <!--REM适配-->
+  <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-
+<div class="indexPage" id="vm">
+  <!--轮播图开始-->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <a href="#" class="swiper-slide"><img src="images/banner1.png" alt="1"></a>
+      <a href="#" class="swiper-slide"><img src="images/banner2.png" alt="2"></a>
+      <a href="#" class="swiper-slide"><img src="images/banner1.png" alt="3"></a>
+      <a href="#" class="swiper-slide"><img src="images/banner3.png" alt="4"></a>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!--轮播图开始-->
+  <!--底部固定菜单开始-->
+  <div class="menu clearfix">
+    <a class="fl" href="javascript:void(0)">首页</a>
+    <a class="fl" href="javascript:void(0)">列表</a>
+    <a class="fl" href="javascript:void(0)">我的</a>
+  </div>
+  <!--底部固定菜单结束-->
+</div>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
 <script src="js/vue.js"></script>
+<script src="js/base.js"></script>
 </body>
 </html>
